@@ -1,0 +1,11 @@
+.imageList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.imageList > img {
+  width: auto;
+  height: auto;
+  object-fit: fill;
+}
